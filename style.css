@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* height: auto; */
+    background-color: #dcdcdc;
+}
+
+header .nav-top{
+    display: flex;
+    background-color: #131921;
+    padding: 10px 15px;
+    align-items: center;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+header .nav-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 3;
+}
+header #nav-top{
+    display: flex;
+    align-items: center;
+}
+
+header .nav-logo{
+    background-image: url(./images/amazon_white.png);
+    display: block;
+    height: 20px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+header .nav-top .nav-left #nav-logo img {
+    width: 100px;
+    height: auto;
+    padding: 5px 0px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hover-items {
+    border-radius: 3px;
+    /* padding: 5px; */
+    height: 50px;
+    border: 1px hidden ;
+}
+.hover-items:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    /* padding: 5px; */
+}
+
+
+header .nav-left #nav-location a #nav-line-1{
+    color: #cccccc;
+}
+header .nav-font-line-1, .nav-font-line-1{
+    font-size: 12px;
+}
+header .nav-font-line-2, .nav-font-line-2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header .nav-left #nav-input{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;   
+    border-radius: 5px;
+    height: 40px;
+}
+
+header .nav-left #nav-input input {
+    padding: 0px 7px 0px 7px;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    width: 200px;
+    outline: none;
+}
+
+header .nav-left #nav-input #input-search-categories{
+    font-size: 11px;
+    color: #3d3d3d;
+    background-color: #e1e1e1;
+    padding: 13.5px;
+    border-radius: 5px 0px 0px 5px;
+    border-right: 0.5px solid #3d3d3d7a;
+}
+
+header .nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .nav-right #nav-language{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+header .flex-row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header #nav-right-language-icon img{
+    width: 20px;
+}
+
+header #nav-cart #nav-right-cart-icon img{
+    color: #fff;
+    width: 30px;
+}
+
+header .nav-main{
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 20px;
+}
+
+header .nav-main a{
+    font-size: 14px;
+}
+
+header .flex-main{
+    display: flex;
+    gap: 20px;
+}
