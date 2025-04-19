@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
     min-height: 100vh;
+    /* background-color: rgb(221, 221, 221); */
 }
 
 .nav-top {
@@ -14,11 +15,11 @@ body {
 }
 
 .image {
-    max-width: 90px;
+    max-width: 120px;
     max-height: auto;
 }
 
-.me-3 a {
+a {
     color: white;
     text-decoration: none;
 }
@@ -39,15 +40,27 @@ body {
 
 .hover{
     /* border: 1px solid white; */
-    padding: 5px;
+    padding: 4px;
 }
 .hover:hover{
     border: 1px solid white;
     padding: 4px;
 }
-
 .nav-bottom {
     background-color: #232f3e;
+}
+
+.hover-a{
+    color: white;
+}
+
+.hover-a:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+.hover-a:focus{
+    color: white !important;
 }
 
 .slider-height{
@@ -112,6 +125,7 @@ ul li a {
 
 ul li {
     list-style-type: none;
+    padding-left: 5px;
 }
 
 ul h5 {
